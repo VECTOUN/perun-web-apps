@@ -54,6 +54,7 @@ export class VoDetailPageComponent implements OnInit {
         this.sideMenuService.setAccessMenuItems([sideMenuItem]);
 
         addRecentlyVisited('vos', this.vo);
+        addRecentlyVisited('vos', this.vo);
         addRecentlyVisitedObject(this.vo);
 
         this.loading = false;
