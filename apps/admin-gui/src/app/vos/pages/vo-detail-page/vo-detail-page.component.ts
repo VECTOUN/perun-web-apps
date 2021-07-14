@@ -26,6 +26,7 @@ export class VoDetailPageComponent implements OnInit {
   constructor(
     private sideMenuService: SideMenuService,
     private voService: VosManagerService,
+ 
     private route: ActivatedRoute,
     private router: Router,
     private sideMenuItemService: SideMenuItemService,
