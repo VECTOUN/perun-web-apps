@@ -6,16 +6,10 @@
     ["@semantic-release/npm", {
         "npmPublish": false
     }],
-    ["@semantic-release/github", {
-      "assets": [
-        {"path": "dist/apps/admin-gui", "label": "Admin GUI"},
-        {"path": "dist/apps/user-profile", "label": "User profile"},
-        {"path": "dist/apps/publications", "label": "Publications"}
-      ]
-    }],
     ["@semantic-release/git", {
       "assets": ["dist"],
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-    }]
+    }],
+    "@semantic-release/github"
   ]
 }
